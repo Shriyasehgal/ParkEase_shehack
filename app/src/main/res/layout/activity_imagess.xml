@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0093d4"
+    tools:context="com.example.parkease.Imagess">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/layout"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/car2"
+        android:layout_width="50dp"
+        android:layout_height="76dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="186dp"
+        android:background="@drawable/car_img"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/car1"
+        android:layout_width="47dp"
+        android:layout_height="76dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="188dp"
+        android:layout_marginStart="61dp"
+        android:background="@drawable/car_img"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/car3"
+        android:layout_width="47dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/car_img"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/car4"
+        android:layout_width="47dp"
+        android:layout_height="76dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="157dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/car_img"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/car5"
+        android:layout_width="47dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="47dp"
+        android:background="@drawable/car_img"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/car6"
+        android:layout_width="47dp"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/car_img"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/car7"
+        android:layout_width="47dp"
+        android:layout_height="76dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/car_img"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/car8"
+        android:layout_width="47dp"
+        android:layout_height="76dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginTop="158dp"
+        android:background="@drawable/car_img"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/car9"
+        android:layout_width="47dp"
+        android:layout_height="76dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="184dp"
+        android:layout_marginEnd="53dp"
+        android:background="@drawable/car_img"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp"
+
+        android:background="#ffffff"
+        android:text="NEXT" />
+
+    <Button
+        android:id="@+id/navigation"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="34dp"
+        android:background="#ffffff"
+        android:text="Navigate" />
+
+
+
+</RelativeLayout>
